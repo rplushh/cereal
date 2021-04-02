@@ -680,6 +680,7 @@ struct ModelDataV2 {
     gasDisengageProb @3 :Float32;
     steerOverrideProb @4 :Float32;
     desireState @5 :List(Float32);
+    disengageProbSpike @6 :Bool;
   }
 }
 
